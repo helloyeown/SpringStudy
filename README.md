@@ -4,3 +4,4 @@
 Java 17 ver <br> 
 Spring Boot 3.2.0 ver <br>
 Gradle 7.4 ver <br>
+H2DB <br>
