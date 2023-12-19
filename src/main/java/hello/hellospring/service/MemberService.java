@@ -22,9 +22,9 @@ public class MemberService {
 
     // 회원가입 (중복 이름 불가)
     public Long join(Member member) {
-        validateDuplicateMember(member);   // 중복 이름 체크
-        repository.save(member);
-        return  member.getId();
+            validateDuplicateMember(member);   // 중복 이름 체크
+            repository.save(member);
+            return  member.getId();
     }
 
     // ctrl + alt + shift + T (메소드로 빼는 단축키)
